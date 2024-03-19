@@ -1,5 +1,5 @@
 const sequelize = require('./src/db/cnx');
-const Partenaire = require('./src/models/partenaire'); 
+const Partenaire = require('./src/models/partenaires'); 
 
 require("./app")
 // Synchronisation du modèle avec la base de données

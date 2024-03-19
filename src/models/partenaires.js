@@ -15,13 +15,12 @@ const Partenaire = sequelize.define('Partenaire', {
     allowNull: true,
   },
   cp: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.STRING,
     allowNull: true,
   },
   ville: {
     type: DataTypes.STRING,
     allowNull: true,
-    defaultValue: false
   },
   mail: {
     type: DataTypes.STRING,

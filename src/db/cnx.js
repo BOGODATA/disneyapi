@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('rustique', 'rustique', 'Bogo150915', {
+const sequelize = new Sequelize('disney', 'disney', 'Bogo150915', {
   host: 'fe46787-001.eu.clouddb.ovh.net',
   port: 35385,
   dialect: 'mysql',

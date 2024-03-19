@@ -1,6 +1,6 @@
 const express = require('express');
 const sequelize = require('../db/cnx');
-const Partenaire = require('../models/partenaire');
+const Partenaire = require('../models/partenaires');
 
 const router = express.Router();
 

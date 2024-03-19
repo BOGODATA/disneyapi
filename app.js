@@ -1,5 +1,5 @@
 const express = require('express');
-const partenaire = require('./src/routes/partenaire');
+const partenaire = require('./src/routes/partenaires');
 const cors = require('cors');
 const path = require('path');
 

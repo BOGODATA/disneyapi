@@ -26,6 +26,10 @@ const Partenaire = sequelize.define('Partenaire', {
     type: DataTypes.STRING,
     allowNull: true,
   },
+  telephone: {
+    type: DataTypes.STRING,
+    allowNull: true,
+  },
   region: {
     type: DataTypes.STRING,
     allowNull: true,

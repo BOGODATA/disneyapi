@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/api', user,participation,partenaire); // Mount the router under the /api path
+app.use('/api', partenaire); // Mount the router under the /api path
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
